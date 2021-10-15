@@ -3,7 +3,8 @@ import styled from 'styled-components'
 
 export const CarouselContainer = styled.ul`
   max-width: 1040px;
-  background: #0F1624;
+  background: #eee9e6;
+  color: black;
   padding: 0rem;
   list-style:none;
   display: flex;
@@ -43,14 +44,15 @@ export const CarouselItem = styled.div`
   background: #0F1624;
   border-radius: 3px;
   max-width: 196px;
+  
 
   @media ${props => props.theme.breakpoints.md} {
-    max-width: 124px;
+    max-width: 110px;
   }
   
   @media ${props => props.theme.breakpoints.sm} {
     margin-left: 32px;
-    min-width: 120px;
+    min-width: 90px;
     background: #0E131F;
     padding: 4px;
     align-content: start;
@@ -66,14 +68,13 @@ export const CarouselItem = styled.div`
 
 export const CarouselItemTitle = styled.h4`
   font-weight: bold;
+  color:black ;
   font-size: 24px;
   line-height: 32px;
   letter-spacing: 0.02em;
   display: flex;
   /* This gradient is different due to the size of the Title container, it must transition sooner to be visible on the text */
-  background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%);
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  /* background: linear-gradient(121.57deg, #FFFFFF 10%, rgba(255, 255, 255, 0.66) 30.15%); */
   margin-bottom: 8px;
 
   @media ${props => props.theme.breakpoints.md} {
@@ -85,6 +86,7 @@ export const CarouselItemTitle = styled.h4`
   @media ${props => props.theme.breakpoints.sm} {
     font-size: 16px;
     line-height: 24px;
+    width: 110px;
   }
 `
 export const CarouselItemImg = styled.svg`
@@ -103,7 +105,7 @@ export const CarouselItemText = styled.p`
   font-size: 14px;
   line-height: 22px;
   letter-spacing: 0.02em;
-  color: rgba(255, 255, 255, 0.75);
+  color: black;
   padding-right: 16px;
 
   @media ${props => props.theme.breakpoints.md} {
@@ -119,6 +121,7 @@ export const CarouselItemText = styled.p`
 `
 export const CarouselButtons = styled.div`
   width: 288px;
+  
 
   display: none;
   visibility: hidden;

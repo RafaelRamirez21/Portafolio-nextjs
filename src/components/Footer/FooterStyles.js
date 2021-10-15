@@ -6,6 +6,7 @@ export const FooterWrapper = styled.section`
   padding: 2rem 48px 40px;
   margin: 1rem auto;
   box-sizing: content-box;
+	color: black;
 
 
   @media ${props => props.theme.breakpoints.sm} {
@@ -17,7 +18,7 @@ export const FooterWrapper = styled.section`
 export const LinkItem = styled.a`
 	font-size: 18px;
 	line-height: 30px;
-	color: rgba(255, 255, 255, 0.75);
+	color: black;
 	margin-bottom: 16px;
 	transition: .3s ease;
 	position: relative;
@@ -79,10 +80,15 @@ export const CompanyContainer = styled.div`
 		align-items: center;
 	}
 `
+export const TitleFooter = styled.div`
+	display: flex;
+	justify-content: center;
+	align-items: center;
+`;
 
 
 export const Slogan = styled.p`
-	color: rgba(255, 255, 255, 0.5);
+	color: black;
 	min-width: 280px;
 	letter-spacing: 0.02em;
 	font-size: 18px;
@@ -144,11 +150,12 @@ export const LinkColumn = styled.div`
 `
 export const LinkTitle = styled.h4`
 	font-style: normal;
+
 	font-weight: 600;
 	font-size: 12px;
 	line-height: 24px;
 	text-transform: uppercase;
-	color: rgba(255, 255, 255, 0.4);
+	color: black;
 	margin-bottom: 16px;
 
 	@media ${props => props.theme.breakpoints.sm} {

@@ -25,7 +25,7 @@ const Header = () => {
     },
     {
       id: 4,
-      title: 'Contact me',
+      title: 'Contact',
       path: '#contact'
     },
 
