@@ -14,7 +14,7 @@ const Hero = (props) => (
       <SectionText>
         I'm a guy from Colombia who live in Barranquilla and love the technology and want to make impact on the world throughtout of this.
       </SectionText>
-      <Button onClick={() => window.location = 'https://google.com'}>
+      <Button onClick={() => window.location = 'https://drive.google.com/drive/folders/1okbVYyzvCbakzBIVrm33B8p0PiCUH8wJ?usp=sharing'}>
         Learn More about me
 
       </Button>
