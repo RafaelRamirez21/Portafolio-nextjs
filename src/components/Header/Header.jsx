@@ -3,7 +3,7 @@ import React from 'react';
 import { AiFillGithub, AiFillInstagram, AiFillLinkedin } from 'react-icons/ai';
 import { DiCssdeck } from 'react-icons/di';
 
-import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Img1 } from './HeaderStyles';
+import { Container, Div1, Div2, Div3, NavLink, SocialIcons, Img1, Span } from './HeaderStyles';
 const Header = () => {
   const navSection = [
 
@@ -14,13 +14,14 @@ const Header = () => {
     },
     {
       id: 2,
-      title: 'Technologies',
-      path: '#tech'
+      title: 'Projects',
+      path: '#projects'
+
     },
     {
       id: 3,
-      title: 'Projects',
-      path: '#projects'
+      title: 'technologies',
+      path: '#tech'
     },
     {
       id: 4,
@@ -58,8 +59,9 @@ const Header = () => {
             alignItems: "center",
             color: 'black',
 
+
           }}>
-            <Img1 src="/images/logo.svg" alt="logo-rrrb" /><span>RafaelRRB</span>
+            <Img1 src="/images/logo.svg" alt="logo-rrrb" /><Span>RafaRRB</Span>
           </a>
         </Link>
       </Div1>
