@@ -16,11 +16,7 @@ const Footer = () => {
       icon: <AiFillLinkedin size="3rem" />,
       path: 'https://www.linkedin.com/in/rafael-ricardo-ram%C3%ADrez-burgos-9890a8191/'
     },
-    {
-      id: 3,
-      icon: <AiFillInstagram size="3rem" />,
-      path: '#projects'
-    },
+
   ]
   return (
     <FooterWrapper id="contact">

@@ -42,11 +42,7 @@ const Header = () => {
       icon: <AiFillLinkedin />,
       path: 'https://www.linkedin.com/in/rafael-ricardo-ram%C3%ADrez-burgos-9890a8191/'
     },
-    {
-      id: 3,
-      icon: <AiFillInstagram />,
-      path: '#projects'
-    },
+
   ]
   return (
 
