@@ -1,5 +1,5 @@
 import React from 'react';
-import { DiFirebase, DiReact, DiZend } from 'react-icons/di';
+import { DiFirebase, DiReact, DiZend, DiCodeBadge } from 'react-icons/di';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { List, ListContainer, ListItem, ListParagraph, ListTitle } from './TechnologiesStyles';
 
@@ -20,7 +20,8 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             React.js <br />
-            Angular
+            Angular <br />
+            Css/Saas/styled-components
           </ListParagraph>
         </ListContainer>
       </ListItem>
@@ -44,6 +45,17 @@ const Technologies = () => (
           <ListParagraph>
             Experience with <br />
             tools like Figma <br />
+          </ListParagraph>
+        </ListContainer>
+      </ListItem>
+      <ListItem>
+        <DiCodeBadge size="3rem" color={"#6b3030"} />
+        <ListContainer>
+          <ListTitle>Others</ListTitle>
+          <ListParagraph>
+            Experience with <br />
+            Python <br />
+            Matlab <br />
           </ListParagraph>
         </ListContainer>
       </ListItem>
