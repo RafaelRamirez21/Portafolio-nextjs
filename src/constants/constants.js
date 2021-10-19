@@ -73,6 +73,15 @@ export const projects = [
     visit: 'https://todo-react-red.netlify.app/',
     id: 7,
   },
+  {
+    title: 'Video game pages',
+    description: "Using Angular for fetching from API about games.",
+    image: '/images/portafolio/game.PNG',
+    tags: ['Angular', 'SASS'],
+    source: 'https://github.com/RafaelRamirez21/Angular-video-game',
+    visit: 'https://angular-game-rrrb.netlify.app/',
+    id: 8,
+  },
 ];
 
 export const TimeLineData = [
